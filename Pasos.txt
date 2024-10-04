@@ -1,0 +1,10 @@
+Pasos:
+
+crear ambiente virtual: python -m venv env_llm
+entrar al ambiente virtual: env_llm/Scripts/activate
+Una vez cargada la reu debería verse asi su terminal: (env_llm) C:\-------
+ahí deber instalar las librerías desde el requirments
+python -m pip install -r requirements.txt
+Una vez que tengan las librerías cargadas crear un archivo .env con la siguiente linea (que corresponde a la API KEY)
+OPENAI_API_KEY=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
+ahora estan listos para abrir la app: streamlit run app.py o streamlit run evaluacion2.py
